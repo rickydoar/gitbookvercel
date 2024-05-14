@@ -2,8 +2,6 @@ import { NextRequest, NextResponse } from 'next/server';
 
 import { revalidateTags } from '@/lib/cache';
 
-export const runtime = 'edge';
-
 interface JsonBody {
     tags: string[];
     purge?: boolean;

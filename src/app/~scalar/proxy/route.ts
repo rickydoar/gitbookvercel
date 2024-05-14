@@ -7,8 +7,6 @@ type ProxyRequest = {
     data: Record<string, any>;
 };
 
-export const runtime = 'edge';
-
 /**
  * Taken from https://github.com/scalar/scalar/tree/main/packages/api-client-proxy
  */

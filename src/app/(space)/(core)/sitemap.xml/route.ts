@@ -8,8 +8,6 @@ import { getPagePath } from '@/lib/pages';
 
 import { getContentPointer } from '../../fetch';
 
-export const runtime = 'edge';
-
 /**
  * Generate a sitemap.xml for the current space.
  */
