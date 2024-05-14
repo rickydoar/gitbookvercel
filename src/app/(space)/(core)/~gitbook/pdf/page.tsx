@@ -36,6 +36,8 @@ import { PrintButton } from './PrintButton';
 
 const DEFAULT_LIMIT = 100;
 
+export const runtime = 'edge';
+
 export async function generateMetadata(): Promise<Metadata> {
     const contentPointer = getContentPointer();
     const [space, customization] = await Promise.all([

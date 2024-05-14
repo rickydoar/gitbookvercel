@@ -17,6 +17,8 @@ import { ClientContexts } from './ClientContexts';
 import { RocketLoaderDetector } from './RocketLoaderDetector';
 import { fetchSpaceData } from '../fetch';
 
+export const runtime = 'edge';
+
 /**
  * Layout when rendering the content.
  */

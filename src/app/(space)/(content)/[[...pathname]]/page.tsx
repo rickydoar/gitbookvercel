@@ -13,6 +13,8 @@ import { tcls } from '@/lib/tailwind';
 import { PageClientLayout } from './PageClientLayout';
 import { PagePathParams, fetchPageData, getPathnameParam, normalizePathname } from '../../fetch';
 
+export const runtime = 'edge';
+
 /**
  * Fetch and render a page.
  */
